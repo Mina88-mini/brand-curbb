@@ -1,0 +1,43 @@
+@media(max-width:774px){
+    .header{
+        display: none;
+    }   
+}
+@media(max-width:1250px){
+    .list , .search-booking{
+        display: none;
+    }
+    .bar{
+        display: block;
+    }
+    .text h1{
+        font-size: 30px;
+    }
+    .text p{
+        font-size: 15px;
+    }
+    .Btn{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+}
+@media(max-width:790px){
+    .content-2{
+        flex-direction: column;
+    }
+    .pic , .text{
+        width: 100%;
+    }
+    .btns{
+        flex-direction: column;
+        gap: 40px;
+        font-size: 16px;
+    
+    }
+}
+@media(max-width:1080px){
+.our-services p{
+    display: none ;
+}
+}
